@@ -261,9 +261,10 @@ font-family: 'Fraunces', serif; */
 
 footer {
 	height: 30vh;
-	background-color: hsl(168, 72%, 72%);
+	background-color: hsl(169, 48%, 73%);
 	display: flex;
 	justify-content: center;
+	position: relative;
 	/* opacity: 0.7; */
 }
 
@@ -280,6 +281,7 @@ footer {
 
 .footer-container .logo {
 	width: 150px;
+	/* color: hsl(168, 34%, 41%); */
 }
 
 .footer-container .info {
@@ -287,6 +289,7 @@ footer {
 	font-size: 18px;
 	display: flex;
 	justify-content: space-between;
+	font-family: "Barlow", sans-serif;
 	/* background-color: red; */
 }
 
@@ -295,5 +298,20 @@ footer {
 	display: flex;
 	text-align: center;
 	justify-content: space-evenly;
-	font-family: "Fraunces", serif;
+}
+
+footer p {
+	font-family: "Barlow", sans-serif;
+	bottom: 10px;
+	position: absolute;
+}
+
+footer p a {
+	text-decoration: none;
+	color: hsl(168, 34%, 41%);
+	transition: all 0.25s ease;
+}
+
+footer p a:hover {
+	color: white;
 }
