@@ -192,6 +192,7 @@ font-family: 'Fraunces', serif; */
 .testimonial-wrapper {
 	width: 100%;
 	padding: 10%;
+	background-color: #fffbf8;
 }
 
 .testimonial-section {
@@ -314,4 +315,11 @@ footer p a {
 
 footer p a:hover {
 	color: white;
+}
+
+@media screen and (max-width: 375px) {
+	.main {
+		display: flex;
+		text-align: center;
+	}
 }
